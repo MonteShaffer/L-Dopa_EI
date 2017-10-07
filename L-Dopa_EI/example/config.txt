@@ -1,0 +1,32 @@
+# Configuration Variables To Run
+
+        # path to local organized data objects, organized by 
+        # /$localCache$/patient/visit_1/session_1
+localCache    = "P:/_.synapseCacheMonteLDopa";  
+
+synapseUser   = 'monte.shaffer@gmail.com'; # change to your credentials
+synapsePass   = 'MySuperSecretPassPhrase'; 
+synapseCache  = "P:/_.synapseCacheLDopa";                 
+
+synapseProject = "mPower";
+synapseTables = c('syn10495809','syn10701954');
+synapseVariables = c('ldopa.training','ldopa.testing');
+
+synapseDevices = c("GENEActive","Pebble");
+
+synapseTasks = c("drnkg","fldng","ftnl1","ftnl2","ftnr1","ftnr2","ntblt","orgpa","raml1","raml2","ramr1","ramr2");
+
+monteTasks = c("drinking","folding towels","finger-to-nose-left-1","finger-to-nose-left-2","finger-to-nose-right-1","finger-to-nose-right-2", "assembling nuts and bolts", "organizing paper", "alternating hand movement (right-left)-1","alternating hand movement (right-left)-2","alternating hand movement (right-right)-1","alternating hand movement (right-right)-2");
+
+
+synapseDeviceSide = c("Left","Right");
+synapseSite = c("Boston","NYC");
+synapseVisit = 1:2;
+synapseSession = 1:8;
+
+
+
+# data-access requires synapsePackage
+  # source('http://depot.sagebase.org/CRAN.R')
+  # pkgInstall("synapseClient")
+  # library(synapseClient);
