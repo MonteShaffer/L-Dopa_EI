@@ -1,4 +1,4 @@
-Package: L-Dopa_EI
+Package: lDopaEI
 Title: Extracts Features for Parkinson's Disease (PD) Prediction from MJFF L-Dopa Clinical
 Version: 0.0.0.9000
 Authors@R: person("Monte", "Shaffer", email = "monte.shaffer@gmail.com", role = c("aut", "cre"))
